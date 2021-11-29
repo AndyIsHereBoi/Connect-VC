@@ -1,13 +1,15 @@
-# Connect-VC
-Discord.py Connect-VC
+# Connect to vc with token
 
-[!] This was made for education.
+To use this, run the following commands.
 
-[!] Please install these modules - pip3 install websocket-client
+1. `pip install websocket-client`
+2. `git clone https://github.com/AndyIsHereBoi/Connect-VC.git`
+3. then go to the directory it cloned to and then open the tokens.txt file and paste your token (or token list) into there.
+4. when you go to run the file run main.py.
+5. it will ask for the channel id, and server id.
+6. put those in and then press enter and they will join.
+7. they will disconnect after some time, but they stay in for 1 min or so.
 
-# How does it work?
-- It will connect to some victim voice call channel. You can use it with keep_alive to make it online in that voice call for 24/7.
+# Contact `AndyIsHereBOi#8909` on discord for help.
 
-Anyways thanks to Ethical
-
-If you want me help just add me on Discord --> Ethical#2021
+`origional base by Ethical#2021.`
