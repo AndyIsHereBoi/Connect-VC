@@ -4,11 +4,10 @@ from json import dumps
 from threading import Thread
 import time
 
-guild_id = "859610420615446538"
-chid = "859610420615446542"
-TOKEN_FILE = "tokens.txt"
+guild_id = input("Enter the server id:\n")
+chid = input("Enter the channel id:\n")
 
-tokens = open(TOKEN_FILE, 'r').readlines()
+tokens = open("tokens.txt", 'r').readlines()
 for token in tokens:
     socket = WebSocket()
     socket.connect("wss://gateway.discord.gg/?v=9&encoding=json")
