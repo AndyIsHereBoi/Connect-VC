@@ -10,6 +10,7 @@ To use this, run the following commands.
 6. put those in and then press enter and they will join.
 7. they will disconnect after some time, but they stay in for 1 min or so.
 
-# Contact `AndyIsHereBOi#8909` on discord for help.
-
-`origional base by Ethical#2021.`
+# For recieve.py:
+1. `pip install websocket-client`
+2. download recieve.py and then put your token inside to connect to the discord websocket with
+3. thats it now run the file
